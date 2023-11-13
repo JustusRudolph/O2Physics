@@ -1,0 +1,1099 @@
+[INFO] Initialising O2 Data Processing Layer. Driver PID: 522835.
+[INFO] Driver listening on port: 20915
+[INFO] Rate limiting set up at 2000MB distributed over 1 readers
+[INFO] O2 Data Processing Layer initialised. We brake for nobody.
+[INFO] Optimised build. O2DEBUG / LOG(debug) / LOGF(debug) / assert statement will not be shown.
+[INFO] Redeployment of configuration asked.
+[INFO] Starting internal-dpl-clock on pid 523137
+[INFO] Starting internal-dpl-aod-reader on pid 523138
+[INFO] Starting internal-dpl-aod-spawner on pid 523139
+[INFO] Starting internal-dpl-aod-index-builder on pid 523140
+[INFO] Starting timestamp-task on pid 523141
+[INFO] Starting track-propagation on pid 523144
+[INFO] Starting bc-selection-task on pid 523148
+[INFO] Starting event-selection-task on pid 523152
+[INFO] Starting track-selection on pid 523153
+[INFO] Starting hf-track-index-skim-creator-tag-sel-collisions on pid 523162
+[INFO] Starting track-to-collision-association on pid 523165
+[INFO] Starting hf-track-index-skim-creator-tag-sel-tracks on pid 523167
+[INFO] Starting hf-track-index-skim-creator on pid 523168
+[INFO] Starting hf-track-index-skim-creator-lf-cascades on pid 523171
+[INFO] Starting hf-track-index-skim-creator-cascades on pid 523172
+[INFO] Starting hf-candidate-creator-3prong on pid 523173
+[INFO] Starting hf-candidate-creator-3prong-expressions on pid 523174
+[INFO] Starting apply-ml-selection on pid 523177
+[INFO] Starting internal-dpl-aod-writer on pid 523178
+[INFO] Starting internal-dpl-aod-global-analysis-file-sink on pid 523179
+[INFO] Starting internal-dpl-injected-dummy-sink on pid 523180
+[INFO] Redeployment of configuration done.
+[523139:internal-dpl-aod-spawner]: [INFO] Instrumenting crash signals
+[523140:internal-dpl-aod-index-builder]: [INFO] Instrumenting crash signals
+[523137:internal-dpl-clock]: [INFO] Instrumenting crash signals
+[523141:timestamp-task]: [INFO] Instrumenting crash signals
+[523148:bc-selection-task]: [INFO] Instrumenting crash signals
+[523138:internal-dpl-aod-reader]: [INFO] Instrumenting crash signals
+[523144:track-propagation]: [INFO] Instrumenting crash signals
+[523139:internal-dpl-aod-spawner]: [INFO] Spawing new device internal-dpl-aod-spawner in process with pid 523139
+[523165:track-to-collision-association]: [INFO] Instrumenting crash signals
+[523140:internal-dpl-aod-index-builder]: [INFO] Spawing new device internal-dpl-aod-index-builder in process with pid 523140
+[523139:internal-dpl-aod-spawner]: [11:55:29][INFO] 
+[523139:internal-dpl-aod-spawner]:       ______      _    _______  _________ 
+[523139:internal-dpl-aod-spawner]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523139:internal-dpl-aod-spawner]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523139:internal-dpl-aod-spawner]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523139:internal-dpl-aod-spawner]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523139:internal-dpl-aod-spawner]: 
+[523153:track-selection]: [INFO] Instrumenting crash signals
+[523140:internal-dpl-aod-index-builder]: [11:55:29][INFO] 
+[523140:internal-dpl-aod-index-builder]:       ______      _    _______  _________ 
+[523140:internal-dpl-aod-index-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523140:internal-dpl-aod-index-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523140:internal-dpl-aod-index-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523140:internal-dpl-aod-index-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523140:internal-dpl-aod-index-builder]: 
+[523139:internal-dpl-aod-spawner]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523140:internal-dpl-aod-index-builder]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523152:event-selection-task]: [INFO] Instrumenting crash signals
+[523139:internal-dpl-aod-spawner]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523140:internal-dpl-aod-index-builder]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523139:internal-dpl-aod-spawner]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523140:internal-dpl-aod-index-builder]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523139:internal-dpl-aod-spawner]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523140:internal-dpl-aod-index-builder]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523148:bc-selection-task]: [INFO] Spawing new device bc-selection-task in process with pid 523148
+[523140:internal-dpl-aod-index-builder]: [11:55:29][STATE] BINDING ---> BOUND
+[523140:internal-dpl-aod-index-builder]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523140:internal-dpl-aod-index-builder]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523139:internal-dpl-aod-spawner]: [11:55:29][STATE] BINDING ---> BOUND
+[523139:internal-dpl-aod-spawner]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523140:internal-dpl-aod-index-builder]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523148:bc-selection-task]: [11:55:29][INFO] 
+[523148:bc-selection-task]:       ______      _    _______  _________ 
+[523148:bc-selection-task]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523148:bc-selection-task]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523148:bc-selection-task]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523148:bc-selection-task]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523148:bc-selection-task]: 
+[523139:internal-dpl-aod-spawner]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523148:bc-selection-task]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523139:internal-dpl-aod-spawner]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523139:internal-dpl-aod-spawner]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523139:internal-dpl-aod-spawner]: [11:55:29][STATE] READY ---> RUNNING
+[523139:internal-dpl-aod-spawner]: [11:55:29][INFO] fair::mq::Device running...
+[523139:internal-dpl-aod-spawner]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523140:internal-dpl-aod-index-builder]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523140:internal-dpl-aod-index-builder]: [11:55:29][STATE] READY ---> RUNNING
+[523140:internal-dpl-aod-index-builder]: [11:55:29][INFO] fair::mq::Device running...
+[523140:internal-dpl-aod-index-builder]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523140:internal-dpl-aod-index-builder]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[INFO] Controller for internal-dpl-aod-reader not yet available.
+[523138:internal-dpl-aod-reader]: [INFO] Spawing new device internal-dpl-aod-reader in process with pid 523138
+[523139:internal-dpl-aod-spawner]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523141:timestamp-task]: [INFO] Spawing new device timestamp-task in process with pid 523141
+[523141:timestamp-task]: [11:55:29][INFO] 
+[523141:timestamp-task]:       ______      _    _______  _________ 
+[523141:timestamp-task]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523141:timestamp-task]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523141:timestamp-task]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523141:timestamp-task]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523141:timestamp-task]: 
+[523141:timestamp-task]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523144:track-propagation]: [INFO] Spawing new device track-propagation in process with pid 523144
+[523144:track-propagation]: [11:55:29][INFO] 
+[523144:track-propagation]:       ______      _    _______  _________ 
+[523144:track-propagation]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523144:track-propagation]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523144:track-propagation]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523144:track-propagation]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523144:track-propagation]: 
+[523138:internal-dpl-aod-reader]: [11:55:29][INFO] 
+[523138:internal-dpl-aod-reader]:       ______      _    _______  _________ 
+[523138:internal-dpl-aod-reader]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523138:internal-dpl-aod-reader]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523138:internal-dpl-aod-reader]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523138:internal-dpl-aod-reader]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523138:internal-dpl-aod-reader]: 
+[523144:track-propagation]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523138:internal-dpl-aod-reader]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523165:track-to-collision-association]: [INFO] Spawing new device track-to-collision-association in process with pid 523165
+[523148:bc-selection-task]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523165:track-to-collision-association]: [11:55:29][INFO] 
+[523165:track-to-collision-association]:       ______      _    _______  _________ 
+[523165:track-to-collision-association]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523165:track-to-collision-association]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523165:track-to-collision-association]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523165:track-to-collision-association]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523165:track-to-collision-association]: 
+[523165:track-to-collision-association]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523148:bc-selection-task]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-dRAjf1, Host: http://alice-ccdb.cern.ch/
+[523148:bc-selection-task]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-dRAjf1, Host: http://alice-ccdb.cern.ch
+[523153:track-selection]: [INFO] Spawing new device track-selection in process with pid 523153
+[523148:bc-selection-task]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523148:bc-selection-task]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523153:track-selection]: [11:55:29][INFO] 
+[523153:track-selection]:       ______      _    _______  _________ 
+[523153:track-selection]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523153:track-selection]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523153:track-selection]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523153:track-selection]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523153:track-selection]: 
+[523153:track-selection]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523148:bc-selection-task]: [11:55:29][STATE] BINDING ---> BOUND
+[523148:bc-selection-task]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523148:bc-selection-task]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523148:bc-selection-task]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523137:internal-dpl-clock]: [INFO] Spawing new device internal-dpl-clock in process with pid 523137
+[523148:bc-selection-task]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523148:bc-selection-task]: [11:55:29][STATE] READY ---> RUNNING
+[523148:bc-selection-task]: [11:55:29][INFO] fair::mq::Device running...
+[523148:bc-selection-task]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523148:bc-selection-task]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523165:track-to-collision-association]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523137:internal-dpl-clock]: [11:55:29][INFO] 
+[523137:internal-dpl-clock]:       ______      _    _______  _________ 
+[523137:internal-dpl-clock]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523137:internal-dpl-clock]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523137:internal-dpl-clock]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523137:internal-dpl-clock]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523137:internal-dpl-clock]: 
+[523137:internal-dpl-clock]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523165:track-to-collision-association]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523165:track-to-collision-association]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523141:timestamp-task]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523165:track-to-collision-association]: [11:55:29][STATE] BINDING ---> BOUND
+[523165:track-to-collision-association]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523165:track-to-collision-association]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523152:event-selection-task]: [INFO] Spawing new device event-selection-task in process with pid 523152
+[523165:track-to-collision-association]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523153:track-selection]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523165:track-to-collision-association]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523165:track-to-collision-association]: [11:55:29][STATE] READY ---> RUNNING
+[523165:track-to-collision-association]: [11:55:29][INFO] fair::mq::Device running...
+[523141:timestamp-task]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-bxXhdX, Host: http://alice-ccdb.cern.ch/
+[523165:track-to-collision-association]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523141:timestamp-task]: [11:55:29][INFO] Initializing TimestampTask
+[523165:track-to-collision-association]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523138:internal-dpl-aod-reader]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523141:timestamp-task]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-bxXhdX, Host: http://alice-ccdb.cern.ch
+[523141:timestamp-task]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613728-tpf5DX, Host: http://alice-ccdb.cern.ch
+[523144:track-propagation]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523152:event-selection-task]: [11:55:29][INFO] 
+[523152:event-selection-task]:       ______      _    _______  _________ 
+[523152:event-selection-task]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523152:event-selection-task]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523152:event-selection-task]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523152:event-selection-task]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523152:event-selection-task]: 
+[523152:event-selection-task]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523153:track-selection]: [11:55:29][INFO] Table enabled: TrackSelection
+[523153:track-selection]: [11:55:29][INFO] setting up getGlobalTrackSelectionRun3ITSMatch(TrackSelection::GlobalTrackRun3ITSMatching::Run3ITSibAny, 0);
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 254
+[523153:track-selection]: [11:55:29][INFO] Track selection, set pt range: 0.1 - 1e+10
+[523153:track-selection]: [11:55:29][INFO] Track selection, set eta range: -0.8 - 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require ITS refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require TPC refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require golden chi2: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows TPC: 70
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster TPC: 4
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster ITS: 36
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA z: 2
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set pt range: 0.1 - 1e+10
+[523153:track-selection]: [11:55:29][INFO] Track selection, set eta range: -0.8 - 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection:
+[523153:track-selection]: [11:55:29][INFO] TrackType == 1
+[523153:track-selection]: [11:55:29][INFO] PtRange in [0.1, 1e+10]
+[523153:track-selection]: [11:55:29][INFO] EtaRange in [-0.8, 0.8]
+[523153:track-selection]: [11:55:29][INFO] TPCNCls > 0
+[523153:track-selection]: [11:55:29][INFO] TPCCrossedRows > 70
+[523153:track-selection]: [11:55:29][INFO] TPCCrossedRowsOverNCls > 0.8
+[523153:track-selection]: [11:55:29][INFO] TPCChi2NDF < 4
+[523153:track-selection]: [11:55:29][INFO] TPCRefit == 1
+[523153:track-selection]: [11:55:29][INFO] ITSNCls > 0
+[523153:track-selection]: [11:55:29][INFO] ITSChi2NDF < 36
+[523153:track-selection]: [11:55:29][INFO] ITSRefit == 1
+[523153:track-selection]: [11:55:29][INFO] ITSHits == 
+[523153:track-selection]: [11:55:29][INFO] GoldenChi2 == 1
+[523153:track-selection]: [11:55:29][INFO] DCAxy < 1e+10
+[523153:track-selection]: [11:55:29][INFO] DCAz < 2
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 254
+[523153:track-selection]: [11:55:29][INFO] Track selection, set pt range: 0.1 - 1e+10
+[523153:track-selection]: [11:55:29][INFO] Track selection, set eta range: -0.8 - 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require ITS refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require TPC refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require golden chi2: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows TPC: 70
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster TPC: 4
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster ITS: 36
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA z: 2
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require no hits in ITS layers
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set pt range: 0.1 - 1e+10
+[523153:track-selection]: [11:55:29][INFO] Track selection, set eta range: -0.8 - 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 254
+[523153:track-selection]: [11:55:29][INFO] Track selection, set pt range: 0.1 - 1e+10
+[523153:track-selection]: [11:55:29][INFO] Track selection, set eta range: -0.8 - 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require ITS refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require TPC refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require golden chi2: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows TPC: 70
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster TPC: 4
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster ITS: 36
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA z: 2
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 254
+[523153:track-selection]: [11:55:29][INFO] Track selection, set pt range: 0.1 - 1e+10
+[523153:track-selection]: [11:55:29][INFO] Track selection, set eta range: -0.8 - 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require ITS refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require TPC refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require golden chi2: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows TPC: 70
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster TPC: 4
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster ITS: 36
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA z: 2
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 2
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set pt range: 0.1 - 1e+10
+[523153:track-selection]: [11:55:29][INFO] Track selection, set eta range: -0.8 - 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require ITS refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require TPC refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require golden chi2: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows TPC: 70
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster TPC: 4
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster ITS: 36
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA z: 2
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA xy: 0.25
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 254
+[523153:track-selection]: [11:55:29][INFO] Track selection, set pt range: 0.1 - 1e+10
+[523153:track-selection]: [11:55:29][INFO] Track selection, set eta range: -0.8 - 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require ITS refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require TPC refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require golden chi2: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows TPC: 70
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster TPC: 4
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster ITS: 36
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA z: 2
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 2
+[523153:track-selection]: [11:55:29][INFO] setting up filtBit5 = getJEGlobalTrackSelectionRun2();
+[523153:track-selection]: [11:55:29][INFO] Track selection, set track type: 254
+[523153:track-selection]: [11:55:29][INFO] Track selection, set pt range: 0.1 - 1e+10
+[523153:track-selection]: [11:55:29][INFO] Track selection, set eta range: -0.8 - 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require ITS refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require TPC refit: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require golden chi2: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows TPC: 70
+[523153:track-selection]: [11:55:29][INFO] Track selection, set min N crossed rows over findable clusters TPC: 0.8
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster TPC: 4
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require hits in ITS layers: 1
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max chi2 per cluster ITS: 36
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA xy pt dep: 0.0455
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA z: 2
+[523153:track-selection]: [11:55:29][INFO] Track selection, set require golden chi2: 0
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA xy pt dep: 1e+10
+[523153:track-selection]: [11:55:29][INFO] Track selection, set eta range: -0.9 - 0.9
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA xy: 2.4
+[523153:track-selection]: [11:55:29][INFO] Track selection, set max DCA z: 3.2
+[523153:track-selection]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523153:track-selection]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523153:track-selection]: [11:55:29][STATE] BINDING ---> BOUND
+[523153:track-selection]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523153:track-selection]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523153:track-selection]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523144:track-propagation]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-Q0jyH1, Host: http://alice-ccdb.cern.ch/
+[523144:track-propagation]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-Q0jyH1, Host: http://alice-ccdb.cern.ch
+[523153:track-selection]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523153:track-selection]: [11:55:29][STATE] READY ---> RUNNING
+[523153:track-selection]: [11:55:29][INFO] fair::mq::Device running...
+[523153:track-selection]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523153:track-selection]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523138:internal-dpl-aod-reader]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523138:internal-dpl-aod-reader]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523137:internal-dpl-clock]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523138:internal-dpl-aod-reader]: [11:55:29][STATE] BINDING ---> BOUND
+[523138:internal-dpl-aod-reader]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523138:internal-dpl-aod-reader]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523138:internal-dpl-aod-reader]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523137:internal-dpl-clock]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523137:internal-dpl-clock]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[INFO] Controller for internal-dpl-aod-reader now available.
+[523138:internal-dpl-aod-reader]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523138:internal-dpl-aod-reader]: [11:55:29][STATE] READY ---> RUNNING
+[523138:internal-dpl-aod-reader]: [11:55:29][INFO] fair::mq::Device running...
+[523138:internal-dpl-aod-reader]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523138:internal-dpl-aod-reader]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523137:internal-dpl-clock]: [11:55:29][STATE] BINDING ---> BOUND
+[523137:internal-dpl-clock]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523137:internal-dpl-clock]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523137:internal-dpl-clock]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523137:internal-dpl-clock]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523137:internal-dpl-clock]: [11:55:29][STATE] READY ---> RUNNING
+[523137:internal-dpl-clock]: [11:55:29][INFO] fair::mq::Device running...
+[523137:internal-dpl-clock]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523137:internal-dpl-clock]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523152:event-selection-task]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523152:event-selection-task]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-srQXcF, Host: http://alice-ccdb.cern.ch/
+[523152:event-selection-task]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-srQXcF, Host: http://alice-ccdb.cern.ch
+[523152:event-selection-task]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523152:event-selection-task]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523152:event-selection-task]: [11:55:29][STATE] BINDING ---> BOUND
+[523152:event-selection-task]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523152:event-selection-task]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523152:event-selection-task]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523152:event-selection-task]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523152:event-selection-task]: [11:55:29][STATE] READY ---> RUNNING
+[523152:event-selection-task]: [11:55:29][INFO] fair::mq::Device running...
+[523152:event-selection-task]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523152:event-selection-task]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523141:timestamp-task]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523141:timestamp-task]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523141:timestamp-task]: [11:55:29][STATE] BINDING ---> BOUND
+[523141:timestamp-task]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523141:timestamp-task]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523141:timestamp-task]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523141:timestamp-task]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523141:timestamp-task]: [11:55:29][STATE] READY ---> RUNNING
+[523141:timestamp-task]: [11:55:29][INFO] fair::mq::Device running...
+[523141:timestamp-task]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523141:timestamp-task]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523173:hf-candidate-creator-3prong]: [INFO] Instrumenting crash signals
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [INFO] Instrumenting crash signals
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [INFO] Instrumenting crash signals
+[523174:hf-candidate-creator-3prong-expressions]: [INFO] Instrumenting crash signals
+[523180:internal-dpl-injected-dummy-sink]: [INFO] Instrumenting crash signals
+[523171:hf-track-index-skim-creator-lf-cascades]: [INFO] Instrumenting crash signals
+[523179:internal-dpl-aod-global-analysis-file-sink]: [INFO] Instrumenting crash signals
+[523168:hf-track-index-skim-creator]: [INFO] Instrumenting crash signals
+[523172:hf-track-index-skim-creator-cascades]: [INFO] Instrumenting crash signals
+[523178:internal-dpl-aod-writer]: [INFO] Instrumenting crash signals
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [INFO] Spawing new device hf-track-index-skim-creator-tag-sel-collisions in process with pid 523162
+[523173:hf-candidate-creator-3prong]: [INFO] Spawing new device hf-candidate-creator-3prong in process with pid 523173
+[523173:hf-candidate-creator-3prong]: [11:55:29][INFO] 
+[523173:hf-candidate-creator-3prong]:       ______      _    _______  _________ 
+[523173:hf-candidate-creator-3prong]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523173:hf-candidate-creator-3prong]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523173:hf-candidate-creator-3prong]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523173:hf-candidate-creator-3prong]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523173:hf-candidate-creator-3prong]: 
+[523173:hf-candidate-creator-3prong]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:29][INFO] 
+[523162:hf-track-index-skim-creator-tag-sel-collisions]:       ______      _    _______  _________ 
+[523162:hf-track-index-skim-creator-tag-sel-collisions]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523162:hf-track-index-skim-creator-tag-sel-collisions]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523162:hf-track-index-skim-creator-tag-sel-collisions]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523162:hf-track-index-skim-creator-tag-sel-collisions]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: 
+[523174:hf-candidate-creator-3prong-expressions]: [INFO] Spawing new device hf-candidate-creator-3prong-expressions in process with pid 523174
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][INFO] 
+[523174:hf-candidate-creator-3prong-expressions]:       ______      _    _______  _________ 
+[523174:hf-candidate-creator-3prong-expressions]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523174:hf-candidate-creator-3prong-expressions]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523174:hf-candidate-creator-3prong-expressions]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523174:hf-candidate-creator-3prong-expressions]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523174:hf-candidate-creator-3prong-expressions]: 
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523177:apply-ml-selection]: [INFO] Instrumenting crash signals
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [INFO] Spawing new device hf-track-index-skim-creator-tag-sel-tracks in process with pid 523167
+[523180:internal-dpl-injected-dummy-sink]: [INFO] Spawing new device internal-dpl-injected-dummy-sink in process with pid 523180
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][INFO] 
+[523180:internal-dpl-injected-dummy-sink]:       ______      _    _______  _________ 
+[523180:internal-dpl-injected-dummy-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523180:internal-dpl-injected-dummy-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523180:internal-dpl-injected-dummy-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523180:internal-dpl-injected-dummy-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523180:internal-dpl-injected-dummy-sink]: 
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:29][INFO] 
+[523167:hf-track-index-skim-creator-tag-sel-tracks]:       ______      _    _______  _________ 
+[523167:hf-track-index-skim-creator-tag-sel-tracks]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523167:hf-track-index-skim-creator-tag-sel-tracks]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523167:hf-track-index-skim-creator-tag-sel-tracks]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523167:hf-track-index-skim-creator-tag-sel-tracks]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: 
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523171:hf-track-index-skim-creator-lf-cascades]: [INFO] Spawing new device hf-track-index-skim-creator-lf-cascades in process with pid 523171
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523173:hf-candidate-creator-3prong]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][STATE] BINDING ---> BOUND
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][INFO] 
+[523171:hf-track-index-skim-creator-lf-cascades]:       ______      _    _______  _________ 
+[523171:hf-track-index-skim-creator-lf-cascades]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523171:hf-track-index-skim-creator-lf-cascades]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523171:hf-track-index-skim-creator-lf-cascades]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523171:hf-track-index-skim-creator-lf-cascades]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523171:hf-track-index-skim-creator-lf-cascades]: 
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523173:hf-candidate-creator-3prong]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-BDr1rv, Host: http://alice-ccdb.cern.ch/
+[523173:hf-candidate-creator-3prong]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-BDr1rv, Host: http://alice-ccdb.cern.ch
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][STATE] READY ---> RUNNING
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][INFO] fair::mq::Device running...
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523174:hf-candidate-creator-3prong-expressions]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523178:internal-dpl-aod-writer]: [INFO] Spawing new device internal-dpl-aod-writer in process with pid 523178
+[523178:internal-dpl-aod-writer]: [11:55:29][INFO] 
+[523178:internal-dpl-aod-writer]:       ______      _    _______  _________ 
+[523178:internal-dpl-aod-writer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523178:internal-dpl-aod-writer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523178:internal-dpl-aod-writer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523178:internal-dpl-aod-writer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523178:internal-dpl-aod-writer]: 
+[523178:internal-dpl-aod-writer]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][STATE] BINDING ---> BOUND
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523179:internal-dpl-aod-global-analysis-file-sink]: [INFO] Spawing new device internal-dpl-aod-global-analysis-file-sink in process with pid 523179
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][INFO] 
+[523179:internal-dpl-aod-global-analysis-file-sink]:       ______      _    _______  _________ 
+[523179:internal-dpl-aod-global-analysis-file-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523179:internal-dpl-aod-global-analysis-file-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523179:internal-dpl-aod-global-analysis-file-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523179:internal-dpl-aod-global-analysis-file-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523179:internal-dpl-aod-global-analysis-file-sink]: 
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][STATE] READY ---> RUNNING
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][INFO] fair::mq::Device running...
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-f3hNx5, Host: http://alice-ccdb.cern.ch/
+[523180:internal-dpl-injected-dummy-sink]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523172:hf-track-index-skim-creator-cascades]: [INFO] Spawing new device hf-track-index-skim-creator-cascades in process with pid 523172
+[523178:internal-dpl-aod-writer]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][STATE] BINDING ---> BOUND
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][INFO] 
+[523172:hf-track-index-skim-creator-cascades]:       ______      _    _______  _________ 
+[523172:hf-track-index-skim-creator-cascades]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523172:hf-track-index-skim-creator-cascades]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523172:hf-track-index-skim-creator-cascades]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523172:hf-track-index-skim-creator-cascades]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523172:hf-track-index-skim-creator-cascades]: 
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][STATE] READY ---> RUNNING
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][INFO] fair::mq::Device running...
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523178:internal-dpl-aod-writer]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523178:internal-dpl-aod-writer]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-Jhz5Rp, Host: http://alice-ccdb.cern.ch/
+[523178:internal-dpl-aod-writer]: [11:55:29][STATE] BINDING ---> BOUND
+[523178:internal-dpl-aod-writer]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523178:internal-dpl-aod-writer]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523178:internal-dpl-aod-writer]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523178:internal-dpl-aod-writer]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523178:internal-dpl-aod-writer]: [11:55:29][STATE] READY ---> RUNNING
+[523178:internal-dpl-aod-writer]: [11:55:29][INFO] fair::mq::Device running...
+[523178:internal-dpl-aod-writer]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523178:internal-dpl-aod-writer]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523177:apply-ml-selection]: [INFO] Spawing new device apply-ml-selection in process with pid 523177
+[523177:apply-ml-selection]: [11:55:29][INFO] 
+[523177:apply-ml-selection]:       ______      _    _______  _________ 
+[523177:apply-ml-selection]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523177:apply-ml-selection]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523177:apply-ml-selection]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523177:apply-ml-selection]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523177:apply-ml-selection]: 
+[523177:apply-ml-selection]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523168:hf-track-index-skim-creator]: [INFO] Spawing new device hf-track-index-skim-creator in process with pid 523168
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][STATE] BINDING ---> BOUND
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][STATE] READY ---> RUNNING
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][INFO] fair::mq::Device running...
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523168:hf-track-index-skim-creator]: [11:55:29][INFO] 
+[523168:hf-track-index-skim-creator]:       ______      _    _______  _________ 
+[523168:hf-track-index-skim-creator]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[523168:hf-track-index-skim-creator]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[523168:hf-track-index-skim-creator]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[523168:hf-track-index-skim-creator]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[523168:hf-track-index-skim-creator]: 
+[523168:hf-track-index-skim-creator]: [11:55:29][STATE] Starting FairMQ state machine --> IDLE
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523177:apply-ml-selection]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523177:apply-ml-selection]: [11:55:29][INFO] --- ONNX-ML model ---
+[523177:apply-ml-selection]: [11:55:29][INFO] Not running on Hyperloop.
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-ADq1rv, Host: http://alice-ccdb.cern.ch/
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][STATE] BINDING ---> BOUND
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][STATE] READY ---> RUNNING
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][INFO] fair::mq::Device running...
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523172:hf-track-index-skim-creator-cascades]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523168:hf-track-index-skim-creator]: [11:55:29][STATE] IDLE ---> INITIALIZING DEVICE
+[523168:hf-track-index-skim-creator]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-TlqfgT, Host: http://alice-ccdb.cern.ch/
+[523168:hf-track-index-skim-creator]: [11:55:29][INFO] Init CcdApi with UserAgentID: justus-G16-1699613729-TlqfgT, Host: http://alice-ccdb.cern.ch
+[523177:apply-ml-selection]: [11:55:29][INFO] Input Nodes:
+[523177:apply-ml-selection]: [11:55:29][INFO] 	input : 1x8
+[523177:apply-ml-selection]: [11:55:29][INFO] Output Nodes:
+[523177:apply-ml-selection]: [11:55:29][INFO] 	label : 1
+[523177:apply-ml-selection]: [11:55:29][INFO] 	probabilities : 1x3
+[523177:apply-ml-selection]: [11:55:29][INFO] Model validity - From: 0, Until: 0
+[523177:apply-ml-selection]: [11:55:29][INFO] --- Model initialized! ---
+[523177:apply-ml-selection]: [11:55:29][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523177:apply-ml-selection]: [11:55:29][STATE] INITIALIZED ---> BINDING
+[523177:apply-ml-selection]: [11:55:29][STATE] BINDING ---> BOUND
+[523177:apply-ml-selection]: [11:55:29][STATE] BOUND ---> CONNECTING
+[523177:apply-ml-selection]: [11:55:29][STATE] CONNECTING ---> DEVICE READY
+[523177:apply-ml-selection]: [11:55:29][STATE] DEVICE READY ---> INITIALIZING TASK
+[523177:apply-ml-selection]: [11:55:29][STATE] INITIALIZING TASK ---> READY
+[523177:apply-ml-selection]: [11:55:29][STATE] READY ---> RUNNING
+[523177:apply-ml-selection]: [11:55:29][INFO] fair::mq::Device running...
+[523177:apply-ml-selection]: [11:55:29][INFO] LHCPeriod is not available, using current month NOV
+[523177:apply-ml-selection]: [11:55:29][INFO] Correctly handshaken websocket connection.
+[523173:hf-candidate-creator-3prong]: File >>><<< not found
+[523168:hf-track-index-skim-creator]: File >>><<< not found
+[523144:track-propagation]: File >>><<< not found
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:30][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:30][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:30][STATE] INITIALIZED ---> BINDING
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:30][STATE] INITIALIZED ---> BINDING
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:30][STATE] BINDING ---> BOUND
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:30][STATE] BOUND ---> CONNECTING
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:30][STATE] BINDING ---> BOUND
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:30][STATE] BOUND ---> CONNECTING
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:30][STATE] CONNECTING ---> DEVICE READY
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:30][STATE] DEVICE READY ---> INITIALIZING TASK
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:30][STATE] CONNECTING ---> DEVICE READY
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:30][STATE] DEVICE READY ---> INITIALIZING TASK
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:30][STATE] INITIALIZING TASK ---> READY
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:30][STATE] READY ---> RUNNING
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:30][INFO] fair::mq::Device running...
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:30][STATE] INITIALIZING TASK ---> READY
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:30][STATE] READY ---> RUNNING
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:30][INFO] fair::mq::Device running...
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:30][INFO] LHCPeriod is not available, using current month NOV
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:30][INFO] LHCPeriod is not available, using current month NOV
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:55:30][INFO] Correctly handshaken websocket connection.
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:55:30][INFO] Correctly handshaken websocket connection.
+[523139:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/cache.cc:50: Creating gandiva cache with capacity of 500
+[523139:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:112: Detected CPU Name : goldmont
+[523139:internal-dpl-aod-spawner]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:113: Detected CPU Features: -avx512pf -tsxldtrk +cx16 +sahf -tbm -avx512ifma +sha +crc32 -fma4 +vpclmulqdq +prfchw +bmi2 -cldemote +fsgsbase -avx512bf16 -amx-tile -uintr +gfni +popcnt +ptwrite +aes -avx512bitalg +movdiri +widekl +xsaves -avx512er +avxvnni -avx512fp16 -avx512vnni -amx-bf16 -avx512vpopcntdq -pconfig +clwb -avx512f +xsavec -clzero +pku +mmx -lwp +rdpid -xop +rdseed +waitpkg +kl +movdir64b -sse4a -avx512bw +clflushopt +xsave -avx512vbmi2 +64bit -avx512vl +serialize +hreset +invpcid -avx512cd +avx +vaes -amx-int8 +cx8 +fma -rtm +bmi -enqcmd +rdrnd -mwaitx +sse4.1 +sse4.2 +avx2 +fxsr -wbnoinvd +sse +lzcnt +pclmul -rdpru +f16c +ssse3 -sgx -prefetchwt1 +cmov -avx512vbmi +shstk +movbe -avx512vp2intersect +xsaveopt -avx512dq +sse2 +adx +sse3
+[523141:timestamp-task]: [11:55:32][INFO] Add new run number 301000 with orbit-reset timestamp 1546730800000000 to cache
+[523144:track-propagation]: Error in <TJAlienConnectionManager>: Failed to get any credentials
+[523168:hf-track-index-skim-creator]: Error in <TJAlienConnectionManager>: Failed to get any credentials
+[523173:hf-candidate-creator-3prong]: Error in <TJAlienConnectionManager>: Failed to get any credentials
+[523138:internal-dpl-aod-reader]: [11:55:32][WARN] Timed out sending after 1s. Downstream backpressure detected on from_internal-dpl-aod-reader_to_track-propagation[0].
+[523144:track-propagation]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523173:hf-candidate-creator-3prong]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523168:hf-track-index-skim-creator]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523139:internal-dpl-aod-spawner]: [11:55:33][WARN] Timed out sending after 1s. Downstream backpressure detected on from_internal-dpl-aod-spawner_to_track-propagation[0].
+[523141:timestamp-task]: [11:55:33][WARN] Timed out sending after 1s. Downstream backpressure detected on from_timestamp-task_to_track-propagation[0].
+[523173:hf-candidate-creator-3prong]: [11:55:36][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Param/MatLUT/1672531199000/c3b9f9c3-48ad-11ee-87cc-2a010e0a0b16 for 1699613729130 (retrieve, agent_id: justus-G16-1699613729-BDr1rv), 
+[523173:hf-candidate-creator-3prong]: [11:55:36][INFO] Initializing voxel layer lookup
+[523173:hf-candidate-creator-3prong]: [11:55:36][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523173:hf-candidate-creator-3prong]: [11:55:36][STATE] INITIALIZED ---> BINDING
+[523173:hf-candidate-creator-3prong]: [11:55:36][STATE] BINDING ---> BOUND
+[523173:hf-candidate-creator-3prong]: [11:55:36][STATE] BOUND ---> CONNECTING
+[523173:hf-candidate-creator-3prong]: [11:55:36][STATE] CONNECTING ---> DEVICE READY
+[523173:hf-candidate-creator-3prong]: [11:55:36][STATE] DEVICE READY ---> INITIALIZING TASK
+[523173:hf-candidate-creator-3prong]: [11:55:36][STATE] INITIALIZING TASK ---> READY
+[523173:hf-candidate-creator-3prong]: [11:55:36][STATE] READY ---> RUNNING
+[523173:hf-candidate-creator-3prong]: [11:55:36][INFO] fair::mq::Device running...
+[523173:hf-candidate-creator-3prong]: [11:55:36][INFO] LHCPeriod is not available, using current month NOV
+[523173:hf-candidate-creator-3prong]: [11:55:36][INFO] Correctly handshaken websocket connection.
+[523144:track-propagation]: [11:55:38][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Param/MatLUT/1672531199000/c3b9f9c3-48ad-11ee-87cc-2a010e0a0b16 for 1699613729022 (retrieve, agent_id: justus-G16-1699613729-Q0jyH1), 
+[523144:track-propagation]: [11:55:38][INFO] Initializing voxel layer lookup
+[523144:track-propagation]: [11:55:38][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523144:track-propagation]: [11:55:38][STATE] INITIALIZED ---> BINDING
+[523144:track-propagation]: [11:55:38][STATE] BINDING ---> BOUND
+[523144:track-propagation]: [11:55:38][STATE] BOUND ---> CONNECTING
+[523144:track-propagation]: [11:55:38][STATE] CONNECTING ---> DEVICE READY
+[523144:track-propagation]: [11:55:38][STATE] DEVICE READY ---> INITIALIZING TASK
+[523138:internal-dpl-aod-reader]: [11:55:38][INFO] Downstream backpressure on from_internal-dpl-aod-reader_to_track-propagation[0] recovered.
+[523139:internal-dpl-aod-spawner]: [11:55:38][INFO] Downstream backpressure on from_internal-dpl-aod-spawner_to_track-propagation[0] recovered.
+[523144:track-propagation]: [11:55:38][STATE] INITIALIZING TASK ---> READY
+[523144:track-propagation]: [11:55:38][STATE] READY ---> RUNNING
+[523144:track-propagation]: [11:55:38][INFO] fair::mq::Device running...
+[523141:timestamp-task]: [11:55:38][INFO] Downstream backpressure on from_timestamp-task_to_track-propagation[0] recovered.
+[523144:track-propagation]: [11:55:38][INFO] LHCPeriod is not available, using current month NOV
+[523144:track-propagation]: [11:55:38][INFO] Correctly handshaken websocket connection.
+[523168:hf-track-index-skim-creator]: [11:55:38][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Param/MatLUT/1672531199000/c3b9f9c3-48ad-11ee-87cc-2a010e0a0b16 for 1699613729166 (retrieve, agent_id: justus-G16-1699613729-TlqfgT), 
+[523168:hf-track-index-skim-creator]: [11:55:38][INFO] Initializing voxel layer lookup
+[523168:hf-track-index-skim-creator]: [11:55:38][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[523168:hf-track-index-skim-creator]: [11:55:38][STATE] INITIALIZED ---> BINDING
+[523168:hf-track-index-skim-creator]: [11:55:38][STATE] BINDING ---> BOUND
+[523168:hf-track-index-skim-creator]: [11:55:38][STATE] BOUND ---> CONNECTING
+[523168:hf-track-index-skim-creator]: [11:55:38][STATE] CONNECTING ---> DEVICE READY
+[523168:hf-track-index-skim-creator]: [11:55:38][STATE] DEVICE READY ---> INITIALIZING TASK
+[523168:hf-track-index-skim-creator]: [11:55:38][STATE] INITIALIZING TASK ---> READY
+[523168:hf-track-index-skim-creator]: [11:55:38][STATE] READY ---> RUNNING
+[523168:hf-track-index-skim-creator]: [11:55:38][INFO] fair::mq::Device running...
+[523168:hf-track-index-skim-creator]: [11:55:38][INFO] LHCPeriod is not available, using current month NOV
+[523168:hf-track-index-skim-creator]: [11:55:38][INFO] Correctly handshaken websocket connection.
+[523144:track-propagation]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523144:track-propagation]: [11:55:38][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPMagField/1546730800000/8188d637-efda-11ec-b9c0-2a010e0a0b16 for 1546730800000 (retrieve, agent_id: justus-G16-1699613729-Q0jyH1), 
+[523144:track-propagation]: [11:55:38][INFO] Setting magnetic field to current 12000 A for run 301000 from its GRPMagField CCDB object
+[523144:track-propagation]: [11:55:38][INFO] MagneticField::Print: MagneticFieldMap:
+[523144:track-propagation]: [11:55:38][INFO] MagneticField::Print: Solenoid (1*)2 kG, Dipole ON (1) 
+[523144:track-propagation]: [11:55:38][INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[523144:track-propagation]: [11:55:38][INFO] MagneticField::Print: Uses Sol12_Dip6_Hole  of /home/justus/alice/sw/ubuntu2204_x86-64/O2/daily-20231106-0100-2/share/Common/maps/mfchebKGI_sym.root
+[523144:track-propagation]: Info in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[523144:track-propagation]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[523144:track-propagation]: [11:55:38][INFO] Loaded 440 params from $(O2_ROOT)/share/Common/maps/sol2k.txt
+[523144:track-propagation]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523144:track-propagation]: [11:55:38][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Calib/MeanVertex/1546300800000/9c31089f-2c77-11ed-ac0b-2a010e0a0b16 for 1546730800000 (retrieve, agent_id: justus-G16-1699613729-Q0jyH1), 
+[523148:bc-selection-task]: File >>><<< not found
+[523148:bc-selection-task]: Error in <TJAlienConnectionManager>: Failed to get any credentials
+[523148:bc-selection-task]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523148:bc-selection-task]: [11:56:00][INFO] ccdb reads http://alice-ccdb.cern.ch/ITS/Config/AlpideParam/1546300800000/76f24ad5-e339-11ec-9e90-200114580204 for 1546730800000 (retrieve, agent_id: justus-G16-1699613729-dRAjf1), 
+[523148:bc-selection-task]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523148:bc-selection-task]: [11:56:00][INFO] ccdb reads http://alice-ccdb.cern.ch/EventSelection/EventSelectionParams/1543767116001/b015f88b-2452-11ed-a788-90ce809b24ee for 1546730800000 (retrieve, agent_id: justus-G16-1699613729-dRAjf1), 
+[523148:bc-selection-task]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523148:bc-selection-task]: [11:56:00][INFO] ccdb reads http://alice-ccdb.cern.ch/EventSelection/TriggerAliases/1543767116001/5d79c029-dac8-11ed-9692-90ce809b250c for 1546730800000 (retrieve, agent_id: justus-G16-1699613729-dRAjf1), 
+[523148:bc-selection-task]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523148:bc-selection-task]: [11:56:00][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPLHCIF/1546300800000/b3296373-efea-11ec-b9c0-2a010e0a0b16 for 1546730800000 (retrieve, agent_id: justus-G16-1699613729-dRAjf1), 
+[523165:track-to-collision-association]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/cache.cc:50: Creating gandiva cache with capacity of 500
+[523165:track-to-collision-association]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:112: Detected CPU Name : goldmont
+[523165:track-to-collision-association]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:113: Detected CPU Features: -avx512pf -tsxldtrk +cx16 +sahf -tbm -avx512ifma +sha +crc32 -fma4 +vpclmulqdq +prfchw +bmi2 -cldemote +fsgsbase -avx512bf16 -amx-tile -uintr +gfni +popcnt +ptwrite +aes -avx512bitalg +movdiri +widekl +xsaves -avx512er +avxvnni -avx512fp16 -avx512vnni -amx-bf16 -avx512vpopcntdq -pconfig +clwb -avx512f +xsavec -clzero +pku +mmx -lwp +rdpid -xop +rdseed +waitpkg +kl +movdir64b -sse4a -avx512bw +clflushopt +xsave -avx512vbmi2 +64bit -avx512vl +serialize +hreset +invpcid -avx512cd +avx +vaes -amx-int8 +cx8 +fma -rtm +bmi -enqcmd +rdrnd -mwaitx +sse4.1 +sse4.2 +avx2 +fxsr -wbnoinvd +sse +lzcnt +pclmul -rdpru +f16c +ssse3 -sgx -prefetchwt1 +cmov -avx512vbmi +shstk +movbe -avx512vp2intersect +xsaveopt -avx512dq +sse2 +adx +sse3
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/cache.cc:50: Creating gandiva cache with capacity of 500
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:112: Detected CPU Name : goldmont
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:113: Detected CPU Features: -avx512pf -tsxldtrk +cx16 +sahf -tbm -avx512ifma +sha +crc32 -fma4 +vpclmulqdq +prfchw +bmi2 -cldemote +fsgsbase -avx512bf16 -amx-tile -uintr +gfni +popcnt +ptwrite +aes -avx512bitalg +movdiri +widekl +xsaves -avx512er +avxvnni -avx512fp16 -avx512vnni -amx-bf16 -avx512vpopcntdq -pconfig +clwb -avx512f +xsavec -clzero +pku +mmx -lwp +rdpid -xop +rdseed +waitpkg +kl +movdir64b -sse4a -avx512bw +clflushopt +xsave -avx512vbmi2 +64bit -avx512vl +serialize +hreset +invpcid -avx512cd +avx +vaes -amx-int8 +cx8 +fma -rtm +bmi -enqcmd +rdrnd -mwaitx +sse4.1 +sse4.2 +avx2 +fxsr -wbnoinvd +sse +lzcnt +pclmul -rdpru +f16c +ssse3 -sgx -prefetchwt1 +cmov -avx512vbmi +shstk +movbe -avx512vp2intersect +xsaveopt -avx512dq +sse2 +adx +sse3
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:01][INFO] ====== initCCDB function called (isRun2==0)
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: File >>><<< not found
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: Error in <TJAlienConnectionManager>: Failed to get any credentials
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:02][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPMagField/1546730800000/8188d637-efda-11ec-b9c0-2a010e0a0b16 for 1546730800000 (retrieve, agent_id: justus-G16-1699613729-Jhz5Rp), 
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:02][INFO] MagneticField::Print: MagneticFieldMap:
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:02][INFO] MagneticField::Print: Solenoid (1*)2 kG, Dipole ON (1) 
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:02][INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:02][INFO] MagneticField::Print: Uses Sol12_Dip6_Hole  of /home/justus/alice/sw/ubuntu2204_x86-64/O2/daily-20231106-0100-2/share/Common/maps/mfchebKGI_sym.root
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: Info in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:02][INFO] Loaded 440 params from $(O2_ROOT)/share/Common/maps/sol2k.txt
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:02][INFO] Setting magnetic field to current 12000.000000 A for run 301000 from its GRP CCDB object (type o2::parameters::GRPMagField)
+[523168:hf-track-index-skim-creator]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/cache.cc:50: Creating gandiva cache with capacity of 500
+[523168:hf-track-index-skim-creator]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:112: Detected CPU Name : goldmont
+[523168:hf-track-index-skim-creator]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:113: Detected CPU Features: -avx512pf -tsxldtrk +cx16 +sahf -tbm -avx512ifma +sha +crc32 -fma4 +vpclmulqdq +prfchw +bmi2 -cldemote +fsgsbase -avx512bf16 -amx-tile -uintr +gfni +popcnt +ptwrite +aes -avx512bitalg +movdiri +widekl +xsaves -avx512er +avxvnni -avx512fp16 -avx512vnni -amx-bf16 -avx512vpopcntdq -pconfig +clwb -avx512f +xsavec -clzero +pku +mmx -lwp +rdpid -xop +rdseed +waitpkg +kl +movdir64b -sse4a -avx512bw +clflushopt +xsave -avx512vbmi2 +64bit -avx512vl +serialize +hreset +invpcid -avx512cd +avx +vaes -amx-int8 +cx8 +fma -rtm +bmi -enqcmd +rdrnd -mwaitx +sse4.1 +sse4.2 +avx2 +fxsr -wbnoinvd +sse +lzcnt +pclmul -rdpru +f16c +ssse3 -sgx -prefetchwt1 +cmov -avx512vbmi +shstk +movbe -avx512vp2intersect +xsaveopt -avx512dq +sse2 +adx +sse3
+[523168:hf-track-index-skim-creator]: [11:56:02][INFO] ====== initCCDB function called (isRun2==0)
+[523168:hf-track-index-skim-creator]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523168:hf-track-index-skim-creator]: [11:56:02][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPMagField/1546730800000/8188d637-efda-11ec-b9c0-2a010e0a0b16 for 1546730800000 (retrieve, agent_id: justus-G16-1699613729-TlqfgT), 
+[523168:hf-track-index-skim-creator]: [11:56:02][INFO] MagneticField::Print: MagneticFieldMap:
+[523168:hf-track-index-skim-creator]: [11:56:02][INFO] MagneticField::Print: Solenoid (1*)2 kG, Dipole ON (1) 
+[523168:hf-track-index-skim-creator]: [11:56:02][INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[523168:hf-track-index-skim-creator]: [11:56:02][INFO] MagneticField::Print: Uses Sol12_Dip6_Hole  of /home/justus/alice/sw/ubuntu2204_x86-64/O2/daily-20231106-0100-2/share/Common/maps/mfchebKGI_sym.root
+[523168:hf-track-index-skim-creator]: Info in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[523168:hf-track-index-skim-creator]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[523168:hf-track-index-skim-creator]: [11:56:02][INFO] Loaded 440 params from $(O2_ROOT)/share/Common/maps/sol2k.txt
+[523168:hf-track-index-skim-creator]: [11:56:02][INFO] Setting magnetic field to current 12000.000000 A for run 301000 from its GRP CCDB object (type o2::parameters::GRPMagField)
+[523171:hf-track-index-skim-creator-lf-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/cache.cc:50: Creating gandiva cache with capacity of 500
+[523171:hf-track-index-skim-creator-lf-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:112: Detected CPU Name : goldmont
+[523171:hf-track-index-skim-creator-lf-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:113: Detected CPU Features: -avx512pf -tsxldtrk +cx16 +sahf -tbm -avx512ifma +sha +crc32 -fma4 +vpclmulqdq +prfchw +bmi2 -cldemote +fsgsbase -avx512bf16 -amx-tile -uintr +gfni +popcnt +ptwrite +aes -avx512bitalg +movdiri +widekl +xsaves -avx512er +avxvnni -avx512fp16 -avx512vnni -amx-bf16 -avx512vpopcntdq -pconfig +clwb -avx512f +xsavec -clzero +pku +mmx -lwp +rdpid -xop +rdseed +waitpkg +kl +movdir64b -sse4a -avx512bw +clflushopt +xsave -avx512vbmi2 +64bit -avx512vl +serialize +hreset +invpcid -avx512cd +avx +vaes -amx-int8 +cx8 +fma -rtm +bmi -enqcmd +rdrnd -mwaitx +sse4.1 +sse4.2 +avx2 +fxsr -wbnoinvd +sse +lzcnt +pclmul -rdpru +f16c +ssse3 -sgx -prefetchwt1 +cmov -avx512vbmi +shstk +movbe -avx512vp2intersect +xsaveopt -avx512dq +sse2 +adx +sse3
+[523172:hf-track-index-skim-creator-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/cache.cc:50: Creating gandiva cache with capacity of 500
+[523172:hf-track-index-skim-creator-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:112: Detected CPU Name : goldmont
+[523172:hf-track-index-skim-creator-cascades]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:113: Detected CPU Features: -avx512pf -tsxldtrk +cx16 +sahf -tbm -avx512ifma +sha +crc32 -fma4 +vpclmulqdq +prfchw +bmi2 -cldemote +fsgsbase -avx512bf16 -amx-tile -uintr +gfni +popcnt +ptwrite +aes -avx512bitalg +movdiri +widekl +xsaves -avx512er +avxvnni -avx512fp16 -avx512vnni -amx-bf16 -avx512vpopcntdq -pconfig +clwb -avx512f +xsavec -clzero +pku +mmx -lwp +rdpid -xop +rdseed +waitpkg +kl +movdir64b -sse4a -avx512bw +clflushopt +xsave -avx512vbmi2 +64bit -avx512vl +serialize +hreset +invpcid -avx512cd +avx +vaes -amx-int8 +cx8 +fma -rtm +bmi -enqcmd +rdrnd -mwaitx +sse4.1 +sse4.2 +avx2 +fxsr -wbnoinvd +sse +lzcnt +pclmul -rdpru +f16c +ssse3 -sgx -prefetchwt1 +cmov -avx512vbmi +shstk +movbe -avx512vp2intersect +xsaveopt -avx512dq +sse2 +adx +sse3
+[523173:hf-candidate-creator-3prong]: [11:56:03][INFO] >>>>>>>>>>>> Current run number: 0
+[523173:hf-candidate-creator-3prong]: [11:56:03][INFO] ====== initCCDB function called (isRun2==0)
+[523173:hf-candidate-creator-3prong]: Error in <TJAlienFile::Open>: No JAliEn Grid connection available!
+[523173:hf-candidate-creator-3prong]: [11:56:03][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Config/GRPMagField/1546730800000/8188d637-efda-11ec-b9c0-2a010e0a0b16 for 1546730800000 (retrieve, agent_id: justus-G16-1699613729-BDr1rv), 
+[523173:hf-candidate-creator-3prong]: [11:56:03][INFO] MagneticField::Print: MagneticFieldMap:
+[523173:hf-candidate-creator-3prong]: [11:56:03][INFO] MagneticField::Print: Solenoid (1*)2 kG, Dipole ON (1) 
+[523173:hf-candidate-creator-3prong]: [11:56:03][INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[523173:hf-candidate-creator-3prong]: [11:56:03][INFO] MagneticField::Print: Uses Sol12_Dip6_Hole  of /home/justus/alice/sw/ubuntu2204_x86-64/O2/daily-20231106-0100-2/share/Common/maps/mfchebKGI_sym.root
+[523173:hf-candidate-creator-3prong]: Info in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[523173:hf-candidate-creator-3prong]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[523173:hf-candidate-creator-3prong]: [11:56:03][INFO] Loaded 440 params from $(O2_ROOT)/share/Common/maps/sol2k.txt
+[523173:hf-candidate-creator-3prong]: [11:56:03][INFO] Setting magnetic field to current 12000.000000 A for run 301000 from its GRP CCDB object (type o2::parameters::GRPMagField)
+[523173:hf-candidate-creator-3prong]: [11:56:03][INFO] >>>>>>>>>>>> Magnetic field: 2.04504
+[523174:hf-candidate-creator-3prong-expressions]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/cache.cc:50: Creating gandiva cache with capacity of 500
+[523174:hf-candidate-creator-3prong-expressions]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:112: Detected CPU Name : goldmont
+[523174:hf-candidate-creator-3prong-expressions]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:113: Detected CPU Features: -avx512pf -tsxldtrk +cx16 +sahf -tbm -avx512ifma +sha +crc32 -fma4 +vpclmulqdq +prfchw +bmi2 -cldemote +fsgsbase -avx512bf16 -amx-tile -uintr +gfni +popcnt +ptwrite +aes -avx512bitalg +movdiri +widekl +xsaves -avx512er +avxvnni -avx512fp16 -avx512vnni -amx-bf16 -avx512vpopcntdq -pconfig +clwb -avx512f +xsavec -clzero +pku +mmx -lwp +rdpid -xop +rdseed +waitpkg +kl +movdir64b -sse4a -avx512bw +clflushopt +xsave -avx512vbmi2 +64bit -avx512vl +serialize +hreset +invpcid -avx512cd +avx +vaes -amx-int8 +cx8 +fma -rtm +bmi -enqcmd +rdrnd -mwaitx +sse4.1 +sse4.2 +avx2 +fxsr -wbnoinvd +sse +lzcnt +pclmul -rdpru +f16c +ssse3 -sgx -prefetchwt1 +cmov -avx512vbmi +shstk +movbe -avx512vp2intersect +xsaveopt -avx512dq +sse2 +adx +sse3
+[523178:internal-dpl-aod-writer]: [11:56:03][INFO] No AODs to be saved.
+[523177:apply-ml-selection]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/cache.cc:50: Creating gandiva cache with capacity of 500
+[523177:apply-ml-selection]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:112: Detected CPU Name : goldmont
+[523177:apply-ml-selection]: /local/workspace/DailyBuilds/DailyO2-ubuntu2204/daily-tags.SyED9TQqMy/BUILD/8737c5d5680502653b420e925811521678df9551/arrow/src_tmp/cpp/src/gandiva/engine.cc:113: Detected CPU Features: -avx512pf -tsxldtrk +cx16 +sahf -tbm -avx512ifma +sha +crc32 -fma4 +vpclmulqdq +prfchw +bmi2 -cldemote +fsgsbase -avx512bf16 -amx-tile -uintr +gfni +popcnt +ptwrite +aes -avx512bitalg +movdiri +widekl +xsaves -avx512er +avxvnni -avx512fp16 -avx512vnni -amx-bf16 -avx512vpopcntdq -pconfig +clwb -avx512f +xsavec -clzero +pku +mmx -lwp +rdpid -xop +rdseed +waitpkg +kl +movdir64b -sse4a -avx512bw +clflushopt +xsave -avx512vbmi2 +64bit -avx512vl +serialize +hreset +invpcid -avx512cd +avx +vaes -amx-int8 +cx8 +fma -rtm +bmi -enqcmd +rdrnd -mwaitx +sse4.1 +sse4.2 +avx2 +fxsr -wbnoinvd +sse +lzcnt +pclmul -rdpru +f16c +ssse3 -sgx -prefetchwt1 +cmov -avx512vbmi +shstk +movbe -avx512vp2intersect +xsaveopt -avx512dq +sse2 +adx +sse3
+[523177:apply-ml-selection]: [11:56:03][INFO] Candidates processed: 1000
+[523177:apply-ml-selection]: [11:56:03][INFO] Candidates processed: 2000
+[523177:apply-ml-selection]: [11:56:04][INFO] Candidates processed: 3000
+[523177:apply-ml-selection]: [11:56:04][INFO] Candidates processed: 4000
+[523177:apply-ml-selection]: [11:56:04][INFO] Candidates processed: 5000
+[523177:apply-ml-selection]: [11:56:05][INFO] Candidates processed: 6000
+[523177:apply-ml-selection]: [11:56:05][INFO] Candidates processed: 7000
+[523177:apply-ml-selection]: [11:56:05][INFO] Candidates processed: 8000
+[523177:apply-ml-selection]: [11:56:05][INFO] Candidates processed: 9000
+[523177:apply-ml-selection]: [11:56:05][INFO] Candidates processed: 10000
+[523177:apply-ml-selection]: [11:56:06][INFO] Candidates processed: 11000
+[523177:apply-ml-selection]: [11:56:06][INFO] Candidates processed: 12000
+[523177:apply-ml-selection]: [11:56:06][INFO] Candidates processed: 13000
+[523177:apply-ml-selection]: [11:56:06][INFO] Candidates processed: 14000
+[523177:apply-ml-selection]: [11:56:07][INFO] Candidates processed: 15000
+[523177:apply-ml-selection]: [11:56:07][INFO] Candidates processed: 16000
+[523177:apply-ml-selection]: [11:56:07][INFO] Candidates processed: 17000
+[523177:apply-ml-selection]: [11:56:07][INFO] Candidates processed: 18000
+[523177:apply-ml-selection]: [11:56:08][INFO] Candidates processed: 19000
+[523177:apply-ml-selection]: [11:56:08][INFO] Candidates processed: 20000
+[523177:apply-ml-selection]: [11:56:08][INFO] Candidates processed: 21000
+[523177:apply-ml-selection]: [11:56:08][INFO] Candidates processed: 22000
+[523177:apply-ml-selection]: [11:56:08][INFO] Candidates processed: 23000
+[523177:apply-ml-selection]: [11:56:08][INFO] Candidates processed: 24000
+[523177:apply-ml-selection]: [11:56:09][INFO] Candidates processed: 25000
+[523177:apply-ml-selection]: [11:56:09][INFO] Candidates processed: 26000
+[523138:internal-dpl-aod-reader]: [11:56:09][INFO] No input files left to read for reader 0!
+[523138:internal-dpl-aod-reader]: [11:56:09][INFO] Read info: lfn=AO2D_MC_Ds.root,size=2254516958,total_df=20,read_df=20,read_bytes=2237163917,read_calls=11400,io_time=15.7,wait_time=22.9,level=0
+[523138:internal-dpl-aod-reader]: [11:56:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-spawner
+[523138:internal-dpl-aod-reader]: [11:56:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-index-builder
+[523138:internal-dpl-aod-reader]: [11:56:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_track-propagation
+[523138:internal-dpl-aod-reader]: [11:56:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_track-to-collision-association
+[523138:internal-dpl-aod-reader]: [11:56:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_hf-candidate-creator-3prong-expressions
+[523138:internal-dpl-aod-reader]: [11:56:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-writer
+[523140:internal-dpl-aod-index-builder]: [11:56:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-index-builder_to_timestamp-task
+[523140:internal-dpl-aod-index-builder]: [11:56:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-index-builder_to_bc-selection-task
+[523141:timestamp-task]: [11:56:09][INFO] CCDBManager summary: 0 queries for 0 objects, 0 good fetches (and 0 failed ones) in 0 ms, instance: justus-G16-1699613729-bxXhdX
+[523141:timestamp-task]: [11:56:09][INFO] Sending end-of-stream message to channel from_timestamp-task_to_track-propagation
+[523177:apply-ml-selection]: [11:56:09][INFO] Candidates processed: 27000
+[523139:internal-dpl-aod-spawner]: [11:56:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-spawner_to_track-propagation
+[523139:internal-dpl-aod-spawner]: [11:56:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-spawner_to_event-selection-task
+[523139:internal-dpl-aod-spawner]: [11:56:09][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-spawner_to_hf-candidate-creator-3prong-expressions
+[523144:track-propagation]: [11:56:09][INFO] CCDBManager summary: 3 queries for 3 objects, 3 good fetches (and 0 failed ones) in 9,720 ms, instance: justus-G16-1699613729-Q0jyH1
+[523144:track-propagation]: [11:56:09][INFO] Sending end-of-stream message to channel from_track-propagation_to_bc-selection-task
+[523144:track-propagation]: [11:56:09][INFO] Sending end-of-stream message to channel from_track-propagation_to_event-selection-task
+[523144:track-propagation]: [11:56:09][INFO] Sending end-of-stream message to channel from_track-propagation_to_track-selection
+[523144:track-propagation]: [11:56:09][INFO] Sending end-of-stream message to channel from_track-propagation_to_hf-track-index-skim-creator-tag-sel-tracks
+[523144:track-propagation]: [11:56:09][INFO] Sending end-of-stream message to channel from_track-propagation_to_internal-dpl-aod-writer
+[523148:bc-selection-task]: [11:56:09][INFO] CCDBManager summary: 1110929 queries for 4 objects, 4 good fetches (and 0 failed ones) in 21,667 ms, instance: justus-G16-1699613729-dRAjf1
+[523148:bc-selection-task]: [11:56:10][INFO] Sending end-of-stream message to channel from_bc-selection-task_to_event-selection-task
+[523148:bc-selection-task]: [11:56:10][INFO] Sending end-of-stream message to channel from_bc-selection-task_to_internal-dpl-aod-global-analysis-file-sink
+[523152:event-selection-task]: [11:56:10][INFO] CCDBManager summary: 0 queries for 0 objects, 0 good fetches (and 0 failed ones) in 0 ms, instance: justus-G16-1699613729-srQXcF
+[523177:apply-ml-selection]: [11:56:10][INFO] Candidates processed: 28000
+[523177:apply-ml-selection]: [11:56:10][INFO] Candidates processed: 29000
+[523152:event-selection-task]: [11:56:10][INFO] Sending end-of-stream message to channel from_event-selection-task_to_track-selection
+[523152:event-selection-task]: [11:56:10][INFO] Sending end-of-stream message to channel from_event-selection-task_to_hf-track-index-skim-creator-tag-sel-collisions
+[523152:event-selection-task]: [11:56:10][INFO] Sending end-of-stream message to channel from_event-selection-task_to_track-to-collision-association
+[523152:event-selection-task]: [11:56:10][INFO] Sending end-of-stream message to channel from_event-selection-task_to_hf-track-index-skim-creator-tag-sel-tracks
+[523152:event-selection-task]: [11:56:10][INFO] Sending end-of-stream message to channel from_event-selection-task_to_internal-dpl-aod-global-analysis-file-sink
+[523153:track-selection]: [11:56:10][INFO] Sending end-of-stream message to channel from_track-selection_to_track-to-collision-association
+[523153:track-selection]: [11:56:10][INFO] Sending end-of-stream message to channel from_track-selection_to_hf-track-index-skim-creator-tag-sel-tracks
+[523153:track-selection]: [11:56:10][INFO] Sending end-of-stream message to channel from_track-selection_to_internal-dpl-aod-writer
+[523177:apply-ml-selection]: [11:56:10][INFO] Candidates processed: 30000
+[523177:apply-ml-selection]: [11:56:10][INFO] Candidates processed: 31000
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:10][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-collisions_to_track-to-collision-association
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:10][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-collisions_to_hf-track-index-skim-creator
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:10][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-collisions_to_internal-dpl-aod-global-analysis-file-sink
+[523165:track-to-collision-association]: [11:56:10][INFO] Sending end-of-stream message to channel from_track-to-collision-association_to_hf-track-index-skim-creator-tag-sel-tracks
+[523165:track-to-collision-association]: [11:56:10][INFO] Sending end-of-stream message to channel from_track-to-collision-association_to_internal-dpl-aod-writer
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:10][INFO] CCDBManager summary: 1 queries for 1 objects, 1 good fetches (and 0 failed ones) in 779 ms, instance: justus-G16-1699613729-Jhz5Rp
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:10][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-tracks_to_hf-track-index-skim-creator
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:10][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-tracks_to_internal-dpl-aod-global-analysis-file-sink
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:10][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-tag-sel-tracks_to_internal-dpl-aod-writer
+[523168:hf-track-index-skim-creator]: [11:56:10][INFO] CCDBManager summary: 2 queries for 2 objects, 2 good fetches (and 0 failed ones) in 9,330 ms, instance: justus-G16-1699613729-TlqfgT
+[523168:hf-track-index-skim-creator]: [11:56:10][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator_to_hf-track-index-skim-creator-lf-cascades
+[523168:hf-track-index-skim-creator]: [11:56:10][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator_to_hf-candidate-creator-3prong
+[523168:hf-track-index-skim-creator]: [11:56:10][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator_to_internal-dpl-aod-global-analysis-file-sink
+[523168:hf-track-index-skim-creator]: [11:56:10][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator_to_internal-dpl-aod-writer
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:10][INFO] CCDBManager summary: 0 queries for 0 objects, 0 good fetches (and 0 failed ones) in 0 ms, instance: justus-G16-1699613729-f3hNx5
+[523177:apply-ml-selection]: [11:56:11][INFO] Candidates processed: 32000
+[523177:apply-ml-selection]: [11:56:11][INFO] Candidates processed: 33000
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:11][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-lf-cascades_to_hf-track-index-skim-creator-cascades
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:11][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-lf-cascades_to_internal-dpl-aod-global-analysis-file-sink
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:11][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-lf-cascades_to_internal-dpl-aod-writer
+[523172:hf-track-index-skim-creator-cascades]: [11:56:11][INFO] CCDBManager summary: 0 queries for 0 objects, 0 good fetches (and 0 failed ones) in 0 ms, instance: justus-G16-1699613729-ADq1rv
+[523172:hf-track-index-skim-creator-cascades]: [11:56:11][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-cascades_to_hf-candidate-creator-3prong
+[523172:hf-track-index-skim-creator-cascades]: [11:56:11][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-cascades_to_internal-dpl-aod-global-analysis-file-sink
+[523172:hf-track-index-skim-creator-cascades]: [11:56:11][INFO] Sending end-of-stream message to channel from_hf-track-index-skim-creator-cascades_to_internal-dpl-aod-writer
+[523173:hf-candidate-creator-3prong]: [11:56:11][INFO] CCDBManager summary: 2 queries for 2 objects, 2 good fetches (and 0 failed ones) in 7,451 ms, instance: justus-G16-1699613729-BDr1rv
+[523173:hf-candidate-creator-3prong]: [11:56:11][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-3prong_to_hf-candidate-creator-3prong-expressions
+[523173:hf-candidate-creator-3prong]: [11:56:11][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-3prong_to_internal-dpl-aod-global-analysis-file-sink
+[523177:apply-ml-selection]: [11:56:11][INFO] Candidates processed: 34000
+[523177:apply-ml-selection]: [11:56:11][INFO] Candidates processed: 35000
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:11][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-3prong-expressions_to_apply-ml-selection
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:11][INFO] Sending end-of-stream message to channel from_hf-candidate-creator-3prong-expressions_to_internal-dpl-aod-writer
+[523178:internal-dpl-aod-writer]: [11:56:11][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-writer_to_internal-dpl-injected-dummy-sink
+[523177:apply-ml-selection]: [11:56:11][INFO] Candidates processed: 36000
+[523177:apply-ml-selection]: [11:56:11][INFO] Candidates processed: 37000
+[523177:apply-ml-selection]: [11:56:12][INFO] Sending end-of-stream message to channel from_apply-ml-selection_to_internal-dpl-aod-global-analysis-file-sink
+[INFO] Quitting
+[INFO] QUIT_REQUESTED
+[523152:event-selection-task]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523152:event-selection-task]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523152:event-selection-task]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523152:event-selection-task]: [11:56:12][STATE] RUNNING ---> READY
+[523152:event-selection-task]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523152:event-selection-task]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523152:event-selection-task]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523152:event-selection-task]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523152:event-selection-task]: [11:56:12][STATE] IDLE ---> EXITING
+[523177:apply-ml-selection]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523177:apply-ml-selection]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523177:apply-ml-selection]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523177:apply-ml-selection]: [11:56:12][STATE] RUNNING ---> READY
+[523177:apply-ml-selection]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523177:apply-ml-selection]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523177:apply-ml-selection]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523177:apply-ml-selection]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523177:apply-ml-selection]: [11:56:12][STATE] IDLE ---> EXITING
+[523168:hf-track-index-skim-creator]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523168:hf-track-index-skim-creator]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523168:hf-track-index-skim-creator]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523168:hf-track-index-skim-creator]: [11:56:12][STATE] RUNNING ---> READY
+[523168:hf-track-index-skim-creator]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523168:hf-track-index-skim-creator]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523168:hf-track-index-skim-creator]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523137:internal-dpl-clock]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523137:internal-dpl-clock]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523137:internal-dpl-clock]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523138:internal-dpl-aod-reader]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523138:internal-dpl-aod-reader]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523137:internal-dpl-clock]: [11:56:12][INFO] Sending end-of-stream message to channel from_internal-dpl-clock_to_internal-dpl-aod-reader
+[523137:internal-dpl-clock]: [11:56:12][STATE] RUNNING ---> READY
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:12][STATE] RUNNING ---> READY
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:12][STATE] RUNNING ---> READY
+[523138:internal-dpl-aod-reader]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523137:internal-dpl-clock]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523137:internal-dpl-clock]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523137:internal-dpl-clock]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523138:internal-dpl-aod-reader]: [11:56:12][STATE] RUNNING ---> READY
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523138:internal-dpl-aod-reader]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523140:internal-dpl-aod-index-builder]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523140:internal-dpl-aod-index-builder]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523138:internal-dpl-aod-reader]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523138:internal-dpl-aod-reader]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523165:track-to-collision-association]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523165:track-to-collision-association]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523140:internal-dpl-aod-index-builder]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523141:timestamp-task]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523141:timestamp-task]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523140:internal-dpl-aod-index-builder]: [11:56:12][STATE] RUNNING ---> READY
+[523140:internal-dpl-aod-index-builder]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523165:track-to-collision-association]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523140:internal-dpl-aod-index-builder]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523165:track-to-collision-association]: [11:56:12][STATE] RUNNING ---> READY
+[523140:internal-dpl-aod-index-builder]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523165:track-to-collision-association]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523141:timestamp-task]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523165:track-to-collision-association]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523137:internal-dpl-clock]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523141:timestamp-task]: [11:56:12][STATE] RUNNING ---> READY
+[523137:internal-dpl-clock]: [11:56:12][STATE] IDLE ---> EXITING
+[523165:track-to-collision-association]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523141:timestamp-task]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523141:timestamp-task]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523141:timestamp-task]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:12][STATE] IDLE ---> EXITING
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:12][STATE] IDLE ---> EXITING
+[523148:bc-selection-task]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523148:bc-selection-task]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523148:bc-selection-task]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523148:bc-selection-task]: [11:56:12][STATE] RUNNING ---> READY
+[523140:internal-dpl-aod-index-builder]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523140:internal-dpl-aod-index-builder]: [11:56:12][STATE] IDLE ---> EXITING
+[523141:timestamp-task]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523141:timestamp-task]: [11:56:12][STATE] IDLE ---> EXITING
+[523148:bc-selection-task]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523148:bc-selection-task]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523148:bc-selection-task]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523144:track-propagation]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523144:track-propagation]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523172:hf-track-index-skim-creator-cascades]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523172:hf-track-index-skim-creator-cascades]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523148:bc-selection-task]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523144:track-propagation]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523144:track-propagation]: [11:56:12][STATE] RUNNING ---> READY
+[523148:bc-selection-task]: [11:56:12][STATE] IDLE ---> EXITING
+[523144:track-propagation]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523144:track-propagation]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523144:track-propagation]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523165:track-to-collision-association]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523165:track-to-collision-association]: [11:56:12][STATE] IDLE ---> EXITING
+[523172:hf-track-index-skim-creator-cascades]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523180:internal-dpl-injected-dummy-sink]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523180:internal-dpl-injected-dummy-sink]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:56:12][STATE] RUNNING ---> READY
+[523172:hf-track-index-skim-creator-cascades]: [11:56:12][STATE] RUNNING ---> READY
+[523172:hf-track-index-skim-creator-cascades]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523172:hf-track-index-skim-creator-cascades]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523180:internal-dpl-injected-dummy-sink]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523180:internal-dpl-injected-dummy-sink]: [11:56:12][STATE] RUNNING ---> READY
+[523180:internal-dpl-injected-dummy-sink]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523180:internal-dpl-injected-dummy-sink]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523180:internal-dpl-injected-dummy-sink]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523172:hf-track-index-skim-creator-cascades]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523172:hf-track-index-skim-creator-cascades]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523172:hf-track-index-skim-creator-cascades]: [11:56:12][STATE] IDLE ---> EXITING
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:56:12][STATE] IDLE ---> EXITING
+[523180:internal-dpl-injected-dummy-sink]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523180:internal-dpl-injected-dummy-sink]: [11:56:12][STATE] IDLE ---> EXITING
+[523168:hf-track-index-skim-creator]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523168:hf-track-index-skim-creator]: [11:56:12][STATE] IDLE ---> EXITING
+[523139:internal-dpl-aod-spawner]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523139:internal-dpl-aod-spawner]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523139:internal-dpl-aod-spawner]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523139:internal-dpl-aod-spawner]: [11:56:12][STATE] RUNNING ---> READY
+[523139:internal-dpl-aod-spawner]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523139:internal-dpl-aod-spawner]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523139:internal-dpl-aod-spawner]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523144:track-propagation]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523144:track-propagation]: [11:56:12][STATE] IDLE ---> EXITING
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:12][STATE] RUNNING ---> READY
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:12][STATE] IDLE ---> EXITING
+[523165:track-to-collision-association]: [11:56:12][STATE] Exiting FairMQ state machine
+[523178:internal-dpl-aod-writer]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523178:internal-dpl-aod-writer]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523178:internal-dpl-aod-writer]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523178:internal-dpl-aod-writer]: [11:56:12][STATE] RUNNING ---> READY
+[523178:internal-dpl-aod-writer]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523178:internal-dpl-aod-writer]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523178:internal-dpl-aod-writer]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523168:hf-track-index-skim-creator]: [11:56:12][STATE] Exiting FairMQ state machine
+[523178:internal-dpl-aod-writer]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523178:internal-dpl-aod-writer]: [11:56:12][STATE] IDLE ---> EXITING
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:12][STATE] RUNNING ---> READY
+[523173:hf-candidate-creator-3prong]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523173:hf-candidate-creator-3prong]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523173:hf-candidate-creator-3prong]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523173:hf-candidate-creator-3prong]: [11:56:12][STATE] RUNNING ---> READY
+[523173:hf-candidate-creator-3prong]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523173:hf-candidate-creator-3prong]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523173:hf-candidate-creator-3prong]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523153:track-selection]: [11:56:12][INFO] Received device shutdown request (signal 15).
+[523153:track-selection]: [11:56:12][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[523153:track-selection]: [11:56:12][INFO] New state requested. No timeout set, quitting immediately as per --completion-policy
+[523153:track-selection]: [11:56:12][STATE] RUNNING ---> READY
+[523153:track-selection]: [11:56:12][STATE] READY ---> RESETTING TASK
+[523153:track-selection]: [11:56:12][STATE] RESETTING TASK ---> DEVICE READY
+[523153:track-selection]: [11:56:12][STATE] DEVICE READY ---> RESETTING DEVICE
+[523153:track-selection]: [11:56:12][INFO] Cleaning up for shared memory id 'c4f6ec9d'...
+[523153:track-selection]: [11:56:12][INFO] Found 0 unmanaged regions...
+[523153:track-selection]: [11:56:12][INFO] Found 1 managed segments...
+[523173:hf-candidate-creator-3prong]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523173:hf-candidate-creator-3prong]: [11:56:12][STATE] IDLE ---> EXITING
+[523153:track-selection]: [11:56:12][INFO] Successfully removed 'fmq_c4f6ec9d_m_0'.
+[523153:track-selection]: [11:56:12][INFO] Successfully removed 'fmq_c4f6ec9d_mng'.
+[523139:internal-dpl-aod-spawner]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523139:internal-dpl-aod-spawner]: [11:56:12][STATE] IDLE ---> EXITING
+[523138:internal-dpl-aod-reader]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523138:internal-dpl-aod-reader]: [11:56:12][STATE] IDLE ---> EXITING
+[523178:internal-dpl-aod-writer]: [11:56:12][STATE] Exiting FairMQ state machine
+[523153:track-selection]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523153:track-selection]: [11:56:12][STATE] IDLE ---> EXITING
+[523137:internal-dpl-clock]: [11:56:12][STATE] Exiting FairMQ state machine
+[523152:event-selection-task]: [11:56:12][STATE] Exiting FairMQ state machine
+[523141:timestamp-task]: [11:56:12][STATE] Exiting FairMQ state machine
+[523177:apply-ml-selection]: [11:56:12][STATE] Exiting FairMQ state machine
+[523162:hf-track-index-skim-creator-tag-sel-collisions]: [11:56:12][STATE] Exiting FairMQ state machine
+[523180:internal-dpl-injected-dummy-sink]: [11:56:12][STATE] Exiting FairMQ state machine
+[523148:bc-selection-task]: [11:56:12][STATE] Exiting FairMQ state machine
+[523179:internal-dpl-aod-global-analysis-file-sink]: [11:56:12][STATE] Exiting FairMQ state machine
+[523139:internal-dpl-aod-spawner]: [11:56:12][STATE] Exiting FairMQ state machine
+[523173:hf-candidate-creator-3prong]: [11:56:12][STATE] Exiting FairMQ state machine
+[523153:track-selection]: [11:56:12][STATE] Exiting FairMQ state machine
+[523138:internal-dpl-aod-reader]: [11:56:12][STATE] Exiting FairMQ state machine
+[523140:internal-dpl-aod-index-builder]: [11:56:12][STATE] Exiting FairMQ state machine
+[523172:hf-track-index-skim-creator-cascades]: [11:56:12][STATE] Exiting FairMQ state machine
+[523171:hf-track-index-skim-creator-lf-cascades]: [11:56:12][STATE] Exiting FairMQ state machine
+[523144:track-propagation]: [11:56:12][STATE] Exiting FairMQ state machine
+[523167:hf-track-index-skim-creator-tag-sel-tracks]: [11:56:12][STATE] Exiting FairMQ state machine
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:12][STATE] RESETTING DEVICE ---> IDLE
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:12][STATE] IDLE ---> EXITING
+[523174:hf-candidate-creator-3prong-expressions]: [11:56:12][STATE] Exiting FairMQ state machine
+[INFO] Dumping performance metrics to performanceMetrics.json file
+[INFO] ## Processes completed. Run summary:
+[INFO] ### Devices started: 21
+[INFO]  - Device internal-dpl-clock: pid 523137 (exit 0)
+[INFO]  - Device internal-dpl-aod-reader: pid 523138 (exit 0)
+[INFO]  - Device internal-dpl-aod-spawner: pid 523139 (exit 0)
+[INFO]  - Device internal-dpl-aod-index-builder: pid 523140 (exit 0)
+[INFO]  - Device timestamp-task: pid 523141 (exit 0)
+[INFO]  - Device track-propagation: pid 523144 (exit 0)
+[INFO]  - Device bc-selection-task: pid 523148 (exit 0)
+[INFO]  - Device event-selection-task: pid 523152 (exit 0)
+[INFO]  - Device track-selection: pid 523153 (exit 0)
+[INFO]  - Device hf-track-index-skim-creator-tag-sel-collisions: pid 523162 (exit 0)
+[INFO]  - Device track-to-collision-association: pid 523165 (exit 0)
+[INFO]  - Device hf-track-index-skim-creator-tag-sel-tracks: pid 523167 (exit 0)
+[INFO]  - Device hf-track-index-skim-creator: pid 523168 (exit 0)
+[INFO]  - Device hf-track-index-skim-creator-lf-cascades: pid 523171 (exit 0)
+[INFO]  - Device hf-track-index-skim-creator-cascades: pid 523172 (exit 0)
+[INFO]  - Device hf-candidate-creator-3prong: pid 523173 (exit 0)
+[INFO]  - Device hf-candidate-creator-3prong-expressions: pid 523174 (exit 0)
+[INFO]  - Device apply-ml-selection: pid 523177 (exit 0)
+[INFO]  - Device internal-dpl-aod-writer: pid 523178 (exit 0)
+[INFO]  - Device internal-dpl-aod-global-analysis-file-sink: pid 523179 (exit 0)
+[INFO]  - Device internal-dpl-injected-dummy-sink: pid 523180 (exit 0)
+[INFO] ## Analysis Run Summary ##
+[INFO] ### Files read stats ###
+[INFO] lfn=AO2D_MC_Ds.root,size=2254516958,total_df=20,read_df=20,read_bytes=2237163917,read_calls=11400,io_time=15.7,wait_time=22.9,level=0
+[INFO] Dumping used configuration in dpl-config.json

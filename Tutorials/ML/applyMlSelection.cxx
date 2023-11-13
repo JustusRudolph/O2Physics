@@ -54,6 +54,7 @@ struct applyMlSelection {
   int nCandidates = 0;
 
   // Add objects needed for ML inference
+  o2::analysis::MlResponse<float> mlResponse;
   std::vector<float> outputMl = {};
 
   // Add histograms for other BDT scores and for distributions after selections
@@ -70,6 +71,9 @@ struct applyMlSelection {
     registry.add("hPromptScoreAfterSelVsPt", "Prompt score after selection;BDT first score;entries", {HistType::kTH2F, {{100, 0., 1.}, {vbins, "#it{p}_{T} (GeV/#it{c})"}}});
 
     // Configure and initialise the ML class
+    mlResponse.configure(binsPtMl, cutsMl, cutDirMl, nClassesMl);
+    mlResponse.setModelPathsLocal(onnxFileNames);
+    mlResponse.init();
 
     // Bonus: retrieve the model from CCDB (needed for ML application on the GRID)
   }
@@ -110,12 +114,12 @@ struct applyMlSelection {
                                            candidate.maxNormalisedDeltaIP()};
 
       // Retrieve model output and selection outcome
+      bool isSelectedMlPiKK = mlResponse.isSelectedMl(inputFeaturesPiKK, candpT, outputMl);
 
       // Fill BDT score histograms before selection
       registry.fill(HIST("hPromptScoreBeforeSel"), outputMl[0]);
 
       // Fill histograms for selected candidates
-      bool isSelectedMlPiKK = true;
       if (isSelectedMlPiKK) {
         registry.fill(HIST("hMassAfterSelVsPt"), hfHelper.invMassDsToPiKK(candidate), candidate.pt());
         registry.fill(HIST("hPromptScoreAfterSelVsPt"), outputMl[0], candidate.pt());

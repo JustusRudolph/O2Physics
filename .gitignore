@@ -29,3 +29,7 @@ xcuserdata/
 
 #QtCreator
 CMakeLists.txt.user
+
+# Hefty root and onnx files
+*.root
+*.onnx
